@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": ["dom", "es6", "es7", "ES2017"],
+    },
+    "include": ["src/**/*"],
+    "exclude": ["./dist"],
+    "outDir": "./dist",
+}
