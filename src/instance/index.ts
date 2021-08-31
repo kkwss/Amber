@@ -105,11 +105,11 @@ class Amber {
     }
 
     public cancelSignal(tokenKey: any) {
-        this.amberCancel.cancelSignal(tokenKey);
+        return this.amberCancel.cancelSignal(tokenKey);
     }
 
     public cancel(tokenKey: any) {
-        this.amberCancel.cancel(tokenKey);
+        return this.amberCancel.cancel(tokenKey);
     }
 
 }
